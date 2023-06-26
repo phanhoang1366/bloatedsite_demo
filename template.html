@@ -7,11 +7,11 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.css">
     <link rel="stylesheet" href="/css/aplayer-fix.css">
-    <div id="aplayer" class="text-left"></div>
+    <div id="aplayer" class=""></div>
     <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </head>
-<body class="container box-border flex flex-col items-center justify-center h-screen px-4 mx-auto text-center text-white bg-zinc-800">
+<body class="container box-border flex flex-col items-center justify-center h-screen px-4 mx-auto text-white bg-zinc-800">
 	<h1 class="inline-block text-left w-fit{{ ' text-red-300' if status >= 400 else '' }}">
         <span class="my-4 text-xl font-semibold">HTTP {{status}}</span><br>
         <span class="my-4 text-5xl font-bold">{{message}}</span>

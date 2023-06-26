@@ -1,0 +1,16 @@
+.aplayer .aplayer-lrc p {
+	color: white
+}
+
+.aplayer .aplayer-info .aplayer-music .aplayer-title {
+	color: #525f7f;
+}
+
+.aplayer-music {
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.aplayer-list-title {
+	color: #525f7f;
+}
